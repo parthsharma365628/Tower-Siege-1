@@ -20,8 +20,8 @@ display(){
 var pa=this.slings.bodyA.position
 var pb=this.pointB
 stroke(255)
-line(pa.x+9,pa.y,pb.x,pb.y)
-line(pa.x-9,pa.y,pb.x,pb.y)
+line(pa.x,pa.y,pb.x+9,pb.y)
+line(pa.x,pa.y,pb.x-9,pb.y)
     }
 }
 }
